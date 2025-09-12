@@ -41,7 +41,7 @@ const MyWork = () => {
                 )
             })}
         </div>
-        <div className="mywork-showmore">
+        <div className="mywork-showmore" onClick={() => window.open('https://github.com/omkarnerale18?tab=repositories', '_blank')}>
             <p>Show More</p>
             <img src={arrow_icon} alt='' />
         </div>
