@@ -1,12 +1,51 @@
-# React + Vite
+# 🚀 Omkar Nerale - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **personal portfolio website**!  
+This is where I showcase my projects, skills, and journey in **Software Development, Cloud Computing, and DevOps**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo  
+👉 Portfolio Link: [https://omkarnerale18.github.io/omkar-nerale-portfolio/  ]  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)  
+![Vite](https://img.shields.io/badge/Bundler-Vite-purple?logo=vite)  
+![GitHub Pages](https://img.shields.io/badge/Hosting-GitHub%20Pages-181717?logo=github)  
+
+---
+
+## ✨ Features  
+
+- 📱 **Responsive Design** – works across devices  
+- 🖼️ **Projects Showcase** – highlights my work  
+- 🧑‍💻 **About Me** – my journey and skills  
+- 📬 **Contact Section** – easy to reach me  
+
+---
+
+## ⚡ Deployment  
+
+This website is hosted using **GitHub Pages**.  
+To update the live version:  
+1. Run the build → `npm run build`  
+2. Deploy the build output to the `gh-pages` branch (or configured branch)  
+3. Access the live site using the provided link  
+
+---
+
+
+
+## 📩 Contact Me  
+
+- **👨‍💻 Name:** Omkar Nerale  
+- **📧 Email:** omkarnerale2003@gmail.com  
+- **🐙 GitHub:** omkarnerale18  
+- **💼 LinkedIn:** Omkar Nerale  
+
+---
+
+⭐ *If you like this portfolio, don’t forget to star the repo!* ⭐  
