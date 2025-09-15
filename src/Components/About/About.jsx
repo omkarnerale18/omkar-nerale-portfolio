@@ -14,7 +14,7 @@ const About = () => {
                 <img src={profile_img} alt=''/>
                 <div className="about-para">
                     <p> Hi,I'am Omkar Nerale, A computer Science Graduate </p>
-                    <p> I’m a tech enthusiast skilled in HTML, CSS, JavaScript, and familiar with React.js. I have hands-on experience with AWS EC2, S3, CloudFront, and GitHub, and I’m building strong expertise in DevOps with tools like Docker while learning more in this space. </p>
+                    <p> I’m a tech enthusiast skilled in HTML, CSS, JavaScript, and familiar with React.js. I have hands-on experience with AWS EC2, S3, IAM, VPC, Lambda, Cloudwatch and GitHub, and I’m building strong expertise in DevOps with tools like Docker while learning more in this space. </p>
                     <p>My focus is on creating scalable, automated, and reliable solutions that bridge development and operations.</p>
                 </div>
             </div>
