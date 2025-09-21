@@ -11,8 +11,8 @@
 }
 .about-title h1{
     padding: 0px 30px;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 700;
 }
 .about-title img{
     position: absolute;
@@ -45,13 +45,14 @@
 .about-para{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    font-size: 24px;
+    gap: 15px;
+    font-size: 18px;
     font-weight: 400;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    line-height: 1.6;
     width: 100%;
-    max-width: 650px;
+    max-width: 600px;
+    padding: 20px;
 }
 .about-skills{
     display: flex;
@@ -67,8 +68,8 @@
 }
 .about-skill p{
     min-width: 150px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .about-skill hr{
@@ -80,13 +81,26 @@
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28% );
 }
 
+.about-skill span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #DF8908;
+}
+
 .about-left img{
     margin-top: 20px;
-   width: 350px;        /* set width */
-  height: 350px;       /* set height to match width for a square */
-  object-fit: cover;   /* keeps image proportionally scaled inside */
-  border: 2px solid #ccc;  /* optional: border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* optional: soft shadow */
+    width: 350px;
+    height: auto;       /* let height adjust to maintain aspect ratio */
+    object-fit: contain; /* show full image without cropping */
+    border-radius: 20px; /* rounded corners */
+    border: 2px solid #ccc;  /* simple border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* simple shadow */
+    transition: all 0.3s ease;
+}
+
+.about-left img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 /* .about-achievements{
     display: flex;
@@ -119,6 +133,52 @@
     transition: 0.3s;
  }
 
+/* Education and Experience Section */
+.about-education-experience{
+    display: flex;
+    gap: 80px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.education-left, .experience-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education-left h2, .experience-right h2{
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.education-item, .experience-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.education-item h3, .experience-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #DF8908;
+}
+
+.education-item p, .experience-item p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
  @media(max-width:768px){
     .about{
         gap: 80px;
@@ -128,7 +188,7 @@
     }
 
     .about-title h1{
-        font-size: 50px;
+        font-size: 36px;
         padding: 0;
     }
 
@@ -146,16 +206,33 @@
     }
     .about-para{
         font-size: 18px;
-        line-height: 32px;
+        line-height: 28px;
     }
     .about-skill{
         gap: 20px;
         align-items: center;
     }
     .about-skill p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .about-skill hr{
         height: 6px;
+    }
+
+    .about-education-experience{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .education-left h2, .experience-right h2{
+        font-size: 23px;
+    }
+
+    .education-item h3, .experience-item h3{
+        font-size: 18px;
+    }
+
+    .education-item p, .experience-item p{
+        font-size: 16px;
     }
  }
