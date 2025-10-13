@@ -20,7 +20,7 @@ const Footer = () => {
         </div> 
         <hr/>
         <div className="footer-bottom">
-            <p className='footer-bottom-left'>©️2025 Omkar Nerale. All rights received</p>
+            <p className='footer-bottom-left'>© 2025 Omkar Nerale. All rights reserved.</p>
         </div>
 
     </div>

@@ -10,56 +10,56 @@ import project6_img from './project_6.jpg'
 const mywork_data = [
     {
         w_no: 1,
-        w_name: "Dockerized a React Login page",
-        w_description: "Dockerized React application configured for development mode using Create React App. Runs within a Node.js container to ensure consistency, enable hot-reloading, and streamline local testing, providing an efficient and portable development environment",
-        w_technologies: ["React", "Docker", "Node.js", "Create React App"],
+        w_name: "Nodejs-Jenkins-CICD-pipeline",
+        w_description: "A Jenkins-powered CI/CD pipeline for a Dockerized Node.js Email Submission App. It automates building, testing, and containerizing the app using Docker and Jenkins, ensuring fast, consistent, and reliable deployments — a perfect demo of modern DevOps workflow.",
+        w_technologies: ["Jenkins", "Docker", "Node.js", "CICD"],
         w_img: project1_img,
-        w_link: "https://github.com/omkarnerale18/dockerized-react-login-page",
+        w_link: "https://github.com/omkarnerale18/Nodejs-Jenkins-CICD-pipeline.git",
         w_live: "https://your-ecommerce-project.com" 
     },
     {
         w_no: 2,
-        w_name: "Gemini-clone",
-        w_description: "A modern Gemini AI clone built using React and Google Generative AI API, featuring a clean, responsive, and interactive UI. This project replicates the conversational experience of Google’s Gemini chatbot, enabling users to get intelligent, context-aware responses in real-time",
-        w_technologies: ["React", "Google Generative AI API", "javascript" ,  "Redux"],
+        w_name: "k8s-Email-Submission-App",
+        w_description: "A full-stack Email Submission App deployed on Kubernetes with MongoDB backend and persistent storage. Features Dockerized Node.js frontend, MongoDB with PVC for data persistence, and Minikube for orchestration. Demonstrates Kubernetes deployments, services, and storage concepts.",
+        w_technologies: [  "Kubernetes", "Docker","Node.js", "javascript", "MongoDB"],
         w_img: project2_img,
-        w_link: "https://github.com/omkarnerale18/Gemini-clone",
+        w_link: "https://github.com/omkarnerale18/k8s-Email-Submission-App.git",
         w_live: "https://gemini-clone-omkar.netlify.app/"
     },
     {
         w_no: 3,
-        w_name: "Movie Search website",
-        w_description: "A responsive movie search website built with HTML, CSS, and JavaScript. Uses an external API to fetch real-time movie details including title, release year, genres, rating, and plot. Features a clean, modern interface that allows users to quickly search and explore movies with ease.",
-        w_technologies: ["HTML", "CSS", "JavaScript", "API"],
+        w_name: "dockerized-react-login-page",
+        w_description: "A Dockerized React application configured for development mode using Create React App. Runs within a Node.js container to ensure consistency, enable hot-reloading, and streamline local testing, providing an efficient and portable development environment",
+        w_technologies: ["React", "Docker", "Create React App"],
         w_img: project3_img,
-        w_link: "https://github.com/omkarnerale18/movie-search-website",
+        w_link: "https://github.com/omkarnerale18/dockerized-react-login-page.git",
         w_live: "https://movie-search-website-omkar.netlify.app/"
     },
     {
         w_no: 4,
-        w_name: "Ev car website header",
-        w_description: "A sleek and modern electric vehicle (EV) website header design built with React and responsive styling. This design features a bold hero section, clean navigation bar, and engaging call-to-action elements that create a premium automotive brand feel",
-        w_technologies: ["React", "CSS3", "JavaScript", "Vite"],
+        w_name: "aws-nginx-autoscaling-hosting",
+        w_description: "Deployed an HTML template from Tooplate on AWS using Nginx with a scalable and fault-tolerant cloud architecture. The setup includes a custom VPC, Subnets, AMI-based EC2 instances, an Elastic Load Balancer (ELB), and an Auto Scaling Group (ASG) to ensure high availability and performance",
+        w_technologies: ["AWS", "Nginx", "EC2", "VPC", "Auto Scaling Group", "Elastic Load Balancer"],
         w_img: project4_img,
-        w_link: "https://github.com/omkarnerale18/EV--car-website-Header",
+        w_link: "https://github.com/omkarnerale18/aws-nginx-autoscaling-hosting.git",
         w_live: "https://your-portfolio.com"
     },
     {
         w_no: 5,
-        w_name: "voting-app-docker-compose",
-        w_description: "A Docker Compose project that runs a full voting application stack with Redis, PostgreSQL, a worker, and frontends for voting and results. Demonstrates container orchestration using Docker Compose v3, making it easy to deploy and manage multi-container apps",
-        w_technologies: ["Docker", "Docker Compose", "Node.js", "Express.js", "PostgreSQL"],
+        w_name: "crispy-kitchen-s3-hosting",
+        w_description: "Crispy Kitchen is a responsive restaurant website built with HTML5, CSS3, and Bootstrap. Based on a free Tooplate template, it is deployed using AWS S3 static website hosting to showcase menus, ratings, and modern UI design as a cloud deployment practice project.",
+        w_technologies: ["AWS", "S3", "HTML5", "CSS3", "Bootstrap"],
         w_img: project5_img,
-        w_link: "https://github.com/omkarnerale18/voting-app-docker-compose",
+        w_link: "https://github.com/omkarnerale18/crispy-kitchen-s3-hosting.git",
         w_live: "https://voting-app-docker-compose.netlify.app/"
     },
     {
         w_no: 6,
-        w_name: "react-weather-app",
-        w_description: "A sleek weather application built with React that fetches real-time data from a public weather API. Users can search for any city to view current conditions, temperature, humidity, and wind speed. Designed with a modern UI and responsive layout for a seamless user experience.",
-        w_technologies: ["React", "API", "JavaScript"],
+        w_name: "Gemini-clone",
+        w_description: "A modern Gemini AI clone built using React and Google Generative AI API, featuring a clean, responsive, and interactive UI. This project replicates the conversational experience of Google’s Gemini chatbot, enabling users to get intelligent, context-aware responses in real-time.",
+        w_technologies: ["React", "Google Generative AI API", "javascript" ,],
         w_img: project6_img,
-        w_link: "https://github.com/omkarnerale18/react-weather-app",
+        w_link: "https://github.com/omkarnerale18/Gemini-clone.git",
         w_live: "https://react-weather-app-omkar.netlify.app/"
     }
 ]
